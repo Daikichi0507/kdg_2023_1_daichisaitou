@@ -1,0 +1,136 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>インディーズバンド・アーティスト向け 無料ホームページテンプレート tp_band1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="{% static 'book/css/style.css' %}">
+<script src="{% static 'js/openclose.js' %}"></script>
+<script src="{% static 'js/fixmenu_pagetop.js' %}"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="{% url 'index' %}"><img src="{% static 'book/images/logo.png' %}" alt="INDIES BAND"></a></h1>
+<!--PC用（901px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="{% url 'readme' %}">READ ME</a></li>
+<li><a href="{% url 'news' %}">NEWS</a></li>
+<li><a href="{% url 'profile' %}">ATTENTION</a></li>
+<li class="current"><a href="{% url 'event' %}">BESTPLAYER</a></li>
+<li><a href="{% url 'discography' %}">EVALUATION</a></li>
+<li><a href="{% url 'contact' %}">CONTACT</a></li>
+</ul>
+</nav>
+<ul class="icon">
+<li><a href="#"><img src="{% static 'book/images/icon_facebook.png' %}" alt="Facebook"></a></li>
+<li><a href="#"><img src="{% static 'book/images/icon_twitter.png' %}" alt="Twitter"></a></li>
+<li><a href="#"><img src="{% static 'book/images/icon_instagram.png' %}" alt="Instagram"></a></li>
+<li><a href="#"><img src="{% static 'book/images/icon_youtube.png' %}" alt="YouTube"></a></li>
+</ul>
+</header>
+
+<div id="contents">
+
+<div id="main">
+
+<section>
+	<h2>BESTPLAYER<span>歴代の史上最高の選手</span></h2>
+
+	<dl class="news">
+	
+	<dt>1984~2003年<span class="icon event">GOD</span></dt>
+	<dd>マイケル・ジョーダン（Michael Jordan）1984年にシカゴ・ブルズに入団し、プロ1年目ながらもリーグ上位の得点率を記録しました。<br>
+		2003年に引退したものの、彼は「バスケの神様」と呼ばれ、言わずと知れたバスケットボール界のレジェンドです。</dd>
+	
+	<dt>2003~現在<span class="icon event">GOD</span></dt>
+	<dd>レブロン・ジェームズ（LeBron James）2003年にクリーブランド・キャバリアーズに入団し、開幕した当初から得点に絡んで存在感を示していました。<br>
+	一躍有名になったのは、2005年～2006年のレギュラーシーズンです。重要な局面で強さを見せつけ、所属チームのプレーオフ進出に貢献しました。</dd>
+	
+	<dt>1996~2016年<span class="icon event">legend</span></dt>
+	<dd>コービー・ブライアント(Kobe Bean Bryant)5度にわたってNBA制覇を果たし、07-08年にシーズンMVPを獲得していて、<br>
+		同じポジションでジョーダンの後継者たる活躍をしたと言えるのはコービーだけでした。</dd>
+	
+	<dt>1969~1989年<span class="icon event">legend</span></dt>
+	<dd>カリーム・アブドゥル=ジャバー（Kareem Abdul-Jabbar）1969年にミルウォーキーバックスに入団し、ルーキーながらも素晴らしい成績を収めました。<br>
+	彼の魅力は、身長およそ218cmという恵まれた体格と卓越した才能です。いかにして自分の能力を発揮するべきか考え、鍛錬を続けてきました。</dd>
+	
+	<dt>2009~現在<span class="icon event">genius</span></dt>
+	<dd>ワーデル・ステフィン・カリー（Wardell Stephen Curry）レギュラーシーズンにおいて、<br>
+		243試合連続3ポイント1本以上成功という記録を持っており現在も継続中で、2015-16シーズンに史上初となる満票でのシーズンMVPを受賞しました。</dd>
+	
+	<dt>1979~1996年<span class="icon event">genius</span></dt>
+	<dd>アービン・マジック・ジョンソン（Earvin Magic Johnson）PGからCまで、全てのポジションをこなせる力があり、<br>
+		ただのノールックパスではなく、色々なフェイクを交えながらするノールックパスは多くのファンを魅了しました。</dd>
+	
+
+</section>
+
+</div>
+<!--/#main-->
+
+<div id="sub">
+
+<h2>詳細</h2>
+<ul class="submenu">
+<li><a href="https://nba.rakuten.co.jp/features/1728">マイケル・ジョーダン</a></li>
+<li><a href="https://nba.rakuten.co.jp/players/2544">レブロン・ジェームズ</a></li>
+<li><a href="https://spaia.jp/column/basketball/2356">コービー・ブライアント</a></li>
+<li><a href="https://www.islamreligion.com/jp/articles/446">カリーム・ジャバー</a></li>
+<li><a href="https://nba.rakuten.co.jp/news/10597">ステフィン・カリー</a></li>
+<li><a href="https://buzzer-beaters.com/magicjohnson/">マジック・ジョンソン</a></li>
+</ul>
+
+</div>
+<!--/#sub-->
+
+</div>
+<!--/#contents-->
+
+<footer>
+	<small>basketball.&copy;site </small><br>
+	<a href="{% url 'index' %}">《INDIES BAND》</a><br>
+	</footer>
+
+</div>
+<!--/#container-->
+
+<!--小さな端末用（900px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="{% url 'readme' %}">READ ME</a></li>
+<li><a href="{% url 'news' %}">NEWS</a></li>
+<li><a href="{% url 'profile' %}">ATTENTION</a></li>
+<li><a href="{% url 'event' %}">BESTPLAYER</a></li>
+<li><a href="{% url 'discography' %}">EVALUATION</a></li>
+<li><a href="{% url 'contact' %}">CONTACT</a></li>
+</ul>
+</nav>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理条件設定　900px以下-->
+<script>
+if (OCwindowWidth() <= 900) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>インディーズバンド・アーティスト向け 無料ホームページテンプレート tp_band1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="{% static 'book/css/style.css' %}">
+<script src="{% static 'js/openclose.js' %}"></script>
+<script src="{% static 'js/fixmenu_pagetop.js' %}"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="{% url 'index' %}"><img src="{% static 'book/images/logo.png' %}" alt="INDIES BAND"></a></h1>
+<!--PC用（901px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="{% url 'readme' %}">READ ME</a></li>
+<li class="current"><a href="{% url 'news' %}">NEWS</a></li>
+<li><a href="{% url 'profile' %}">ATTENTION</a></li>
+<li><a href="{% url 'event' %}">BESTPLAYER</a></li>
+<li><a href="{% url 'discography' %}">EVALUATION</a></li>
+<li><a href="{% url 'contact' %}">CONTACT</a></li>
+</ul>
+</nav>
+<ul class="icon">
+<li><a href="#"><img src="{% static 'book/images/icon_facebook.png' %}" alt="Facebook"></a></li>
+<li><a href="#"><img src="{% static 'book/images/icon_twitter.png' %}" alt="Twitter"></a></li>
+<li><a href="#"><img src="{% static 'book/images/icon_instagram.png' %}" alt="Instagram"></a></li>
+<li><a href="#"><img src="{% static 'book/images/icon_youtube.png' %}" alt="YouTube"></a></li>
+</ul>
+</header>
+
+<div id="contents">
+
+<div id="main">
+
+<section>
+
+<h2>NEWS<span>歴代の史上最高のニュース</span></h2>
+
+<dl class="news">
+
+<dt>1959年<span class="icon event">チェンバレン</span></dt>
+<dd>チェンバレンはカンザス大で3年間プレイしたのち、エキシビション・バスケットボール・チームであるハーレム・グローブトロッターズ入りします。<br>
+	そして1959年のNBAドラフトで地域指名を受けてウォリアーズ入を果たします。すると、なんとルーキーイヤーから7年連続で得点王になり、華々しい活躍をしています。<br>
+	「100得点」が生まれたのは3シーズン目、1961-62シーズンの76試合目でした。<br>
+	NBA公式サイトの記述によると、1Qで23得点を奪うと2Qでは41得点。なんとハーフタイムで64得点を奪っています。<br>
+	そして3Qで28得点をマークして92得点。100点という大台を見たい観客からは“ウィルトに回せ!(Give it to Wilt!)”というコールが生まれたといいます。<br>
+	そのコールに従ったのか、チームメイトはチェンバレンにボールを託そうとします。<br>
+	しかし、 “一人に100点を奪われた”と言われたくないニックスは、ウォリアーズのほかの選手がボールを持っている間にファウルをして、チェンバレンにボールを回らないように仕向けたといいます。<br>
+	それでも、チェンバレンは残り46秒、ジョー・ルークリックからパスを受けてシュートを決めて100得点を達成します。<br>
+	試合後、ロッカールームに行くと広報のハーベイ・ポラック氏から100と書かれた紙を手渡されます。そして、あの有名な写真を撮影しました。</dd>
+
+<dt>1984年<span class="icon event">ジョン・ストックトン</span></dt>
+<dd>ジョン・ストックトンの功績として、長きに渡りユタ・ジャズの中核を担ったことが挙げられます。<br>
+	特にチームメイトのカール・マローンと組んでの熟練のピック＆ロールは、得点を量産した攻撃パターンとしてよく知られています。<br>
+	ジョン・ストックトンは、9年連続でアシスト王に輝き、生涯で史上最高のアシスト数記録を打ち立てました。<br>
+	また、史上最高のスティール記録も保持しており、NBAオールスターゲームには、キャリアの中で10回出場しています。<br>
+	ジョン・ストックトンのプレイスタイルは、視野の広さと全体の状況を把握した上での的確な判断を特徴としています。<br>
+	シュートやパスなど、一つ一つのプレイの精度が高く、個人での得点能力も高いですが、<br>
+	状況により確実に得点できる選択を選ぶなど、派手さはないが堅実なプレイをしていました。<br>
+	実は、練習の際にジョン・ストックトンがダンクシュートを決めたことがあるようですが、チームメイトからは驚きの声が上がったといわれています。<br>
+</dd>
+
+
+<dt>1984年<span class="icon event">アキーム・オラジュワン</span></dt>
+<dd>この人はセンターという、バスケットボールの中で最も長身の選手がやるポジションを務めました。<br>
+	そして、このポジション・身長ではありえない、見事なフェイントを様々に組み合わせた俊敏な動きで敵を翻弄しました。<br>
+	これが彼のあだ名「ドリーム」を取って呼ばれたドリームシェイクです。またセンターとしてはシュートレンジも広い方でした。<br>
+	また守備にも優れ、最優秀守備選手賞を2度受賞、ブロック数は歴代最多、<br>
+	スティール数も引退時はセンターとしては異例の歴代6位（ジュリアス・アーヴィングのABA時代を含めると7位、）でした。<br>
+	今でも8位（もしくは9位）に食い込んでいます。<br>
+	そして勝負強い選手でもありました。ブザービーターを決めたこともあるし、プレーオフでも活躍しました。<br>
+	デビッド・ロビンソン、パトリック・ユーイング、若き日のシャキール・オニールといった名センター達が多くプレーしていたこの時代、<br>
+	プレーオフという舞台で彼らを倒したことが、オラジュワンの高評価につながっています。<br>
+	そして2年連続で出場したファイナルでも見事に連覇。試合を決めるティップインやブロック、スリーポイントまで決めています。<br>
+	ロビンソンをゴール下で翻弄するシーンやユーイングをスピンムーブで置き去りにするシーンは、ドリームシェイクの見本として何度も目にします。<br>
+</dd>
+
+
+
+</section>
+
+</div>
+<!--/#main-->
+
+<div id="sub">
+
+<h2>詳細</h2>
+<ul class="submenu">
+<li><a href="https://nba.rakuten.co.jp/">NBA</a></li>
+<li><a href="https://www.sportingnews.com/jp/nba">NBA</a></li>
+<li><a href="https://basketballking.jp/">Bリーグ</a></li>
+<li><a href="https://sports.yahoo.co.jp/basket/">Bリーグ</a></li>
+<li><a href="https://sports.yahoo.co.jp/list/news/basket?genre=basket">色々</a></li>
+</ul>
+
+</div>
+<!--/#sub-->
+
+</div>
+<!--/#contents-->
+
+<footer>
+	<small>basketball.&copy;site </small><br>
+  <a href="{% url 'index' %}">《INDIES BAND》</a><br>
+</footer>
+</div>
+<!--/#container-->
+
+<!--小さな端末用（900px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="{% url 'readme' %}">READ ME</a></li>
+<li><a href="{% url 'news' %}">NEWS</a></li>
+<li><a href="{% url 'profile' %}">PROFILE</a></li>
+<li><a href="{% url 'event' %}">BESTPLAYER</a></li>
+<li><a href="{% url 'discography' %}">EVALUATION</a></li>
+<li><a href="{% url 'contact' %}">CONTACT</a></li>
+</ul>
+</nav>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+
+<!--メニューの開閉処理条件設定　900px以下-->
+<script>
+if (OCwindowWidth() <= 900) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+</body>
+</html>
